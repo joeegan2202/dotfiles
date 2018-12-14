@@ -1,3 +1,15 @@
 [submodule "plugins/nerdtree"]
 	path = plugins/nerdtree
 	url = https://github.com/scrooloose/nerdtree
+[submodule "plugins/vim-eunuch"]
+	path = plugins/vim-eunuch
+	url = https://github.com/tpope/vim-eunuch
+[submodule "plugins/fzf.vim"]
+	path = plugins/fzf.vim
+	url = https://github.com/junegunn/fzf.vim
+[submodule "plugins/vim-airline"]
+	path = plugins/vim-airline
+	url = https://github.com/vim-airline/vim-airline
+[submodule "plugins/vim-airline-themes"]
+	path = plugins/vim-airline-themes
+	url = https://github.com/vim-airline/vim-airline-themes
