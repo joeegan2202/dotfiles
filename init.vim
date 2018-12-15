@@ -10,10 +10,18 @@ Plug 'tpope/vim-eunuch'
 
 Plug 'scrooloose/nerdtree'
 
+Plug 'trevordmiller/nova-vim'
+
 call plug#end()
 
 let g:airline_theme='light'
+let g:nova_transparent=1
 
 map ; :Files<CR>
 
-map ' :NERDTreeToggle<CR>
+map ' :NERDTreeToggle<CR>:set nu rnu<CR>
+
+set nu rnu
+set noswapfile
+
+colorscheme nova
