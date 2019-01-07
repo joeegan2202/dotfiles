@@ -1,4 +1,6 @@
-# nvim-dotfiles
+# Joe's Dotfiles
 ### Install
-Use `git clone --recurse-submodules https://github.com/Nobodyknows2202/nvim-dotfiles` in order to fetch all of the submodules.
 Use the install.sh file to install, and upload.sh to upload changes.
+
+### Current Dotfiles
+I have only added my dotfiles for Neovim and i3 so far. I will add more.
