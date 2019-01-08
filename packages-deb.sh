@@ -16,6 +16,9 @@ apt install -y firefox
 apt install -y feh
 apt install -y htop
 apt install -y neovim
+apt install -y zsh
+
+sh -c "$(wget https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
 
 cd ~/
 git clone https://github.com/jaagr/polybar
@@ -24,3 +27,6 @@ cd polybar/build
 cmake ../
 make
 sudo make install
+
+cd ~/dotfiles
+./install.sh
