@@ -1,8 +1,8 @@
 #!/bin/bash
 git pull
 
-if [ "$(whoami)" != "root" ]; then
-	echo "Sorry, you must be root to install the dotfiles"
+if [ "$(whoami)" == "root" ]; then
+	echo "Sorry, you must not be root to install the dotfiles"
 	exit 1
 fi
 
@@ -14,8 +14,8 @@ fi
 # cp ./i3.config ~/.config/i3/config
 # rm ~/.zshrc
 # cp ./zsh.config ~/.zshrc
-mkdir -p ~/.config/nvim ~/.config/i3 ~/.config/polybar
-ln -sf ~/dotfiles/neovim/neovim.config ~/.config/nvim/init.vim
-ln -sf ~/dotfiles/zsh/zsh.config ~/.zshrc
-ln -sf ~/dotfiles/i3/i3.config ~/.config/i3/config
-ln -sf ~/dotfiles/polybar/polybar.config ~/.config/polybar/config
+sudo mkdir -p ~/.config/nvim ~/.config/i3 ~/.config/polybar
+sudo ln -sf ~/dotfiles/neovim/neovim.config ~/.config/nvim/init.vim
+sudo ln -sf ~/dotfiles/zsh/zsh.config ~/.zshrc
+sudo ln -sf ~/dotfiles/i3/i3.config ~/.config/i3/config
+sudo ln -sf ~/dotfiles/polybar/polybar.config ~/.config/polybar/config
