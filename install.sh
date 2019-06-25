@@ -8,7 +8,8 @@ git pull
 # cp ./i3.config ~/.config/i3/config
 # rm ~/.zshrc
 # cp ./zsh.config ~/.zshrc
-mkdir -p ~/.config/nvim ~/.config/i3
+mkdir -p ~/.config/nvim ~/.config/i3 ~/.config/polybar
 ln -sf neovim/neovim.config ~/.config/nvim/init.vim
 ln -sf zsh/zsh.config ~/.zshrc
 ln -sf i3/i3.config ~/.config/i3/config
+ln -sf polybar/polybar.config ~/.config/polybar/config
