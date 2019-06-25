@@ -9,6 +9,6 @@ git pull
 # rm ~/.zshrc
 # cp ./zsh.config ~/.zshrc
 mkdir -p ~/.config/nvim ~/.config/i3
-ln -sf neovim/init.vim ~/.config/nvim/init.vim
+ln -sf neovim/neovim.config ~/.config/nvim/init.vim
 ln -sf zsh/zsh.config ~/.zshrc
 ln -sf i3/i3.config ~/.config/i3/config
