@@ -7,9 +7,9 @@ fi
 
 sudo pacman -Syyui --noconfirm
 
-sudo pacman -S git makepkg go
+sudo pacman -S git base-devel go
 
-git clone https://github.com/jguer/yay
+git clone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -si
 cd ../
