@@ -1,6 +1,8 @@
 # Joe's Dotfiles
 ### Install
-Use the install.sh file to install. Caution: Will destroy current dotfiles from the included programs list.
+Use the install.sh file to install. Caution:
+* Will destroy current dotfiles from the included programs list.
+* Must be run with root priviledges.
 
 ### Current Dotfiles
 These are the current programs supported by my dotfiles:
