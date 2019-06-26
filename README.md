@@ -19,3 +19,4 @@ Please, don't expect this to work! I am almost certain that this will fail 100% 
 
 ### !!! Installing !!!
 Run the `./packages-arch.sh` file, **not** with root. This only works as a non-root user.
+Ensure that you choose the `polybar` package, not the `polybar-git` package. Do similarly for `vim-plug`, not `vim-plug-git`.
