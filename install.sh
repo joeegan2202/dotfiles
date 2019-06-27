@@ -19,3 +19,6 @@ sudo ln -sf ~/dotfiles/neovim/neovim.config ~/.config/nvim/init.vim
 sudo ln -sf ~/dotfiles/zsh/zsh.config ~/.zshrc
 sudo ln -sf ~/dotfiles/i3/i3.config ~/.config/i3/config
 sudo ln -sf ~/dotfiles/polybar/polybar.config ~/.config/polybar/config
+sudo ln -sf ~/dotfiles/Xresources/Xresources.config ~/.Xresources
+
+sudo xrdb ~/.Xresources

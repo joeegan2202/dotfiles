@@ -10,6 +10,7 @@ These are the current programs supported by my dotfiles:
 * i3 (Window Manager)
 * zsh and oh-my-zsh
 * polybar
+* Xresources
 
 ### Updating Dotfiles
 In order to update the dotfiles, edit the files in the git-managed folders. The 'files' in the .config folder are, in fact, Symlinks to the git-managed files.
