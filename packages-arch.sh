@@ -14,4 +14,4 @@ cd yay
 makepkg -si
 cd ../
 
-yay -S polybar i3-gaps neovim zsh oh-my-zsh-git vim-plug
+yay -S polybar i3-gaps neovim zsh oh-my-zsh-git vim-plug tmux w3m ranger
