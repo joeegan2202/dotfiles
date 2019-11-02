@@ -1,5 +1,11 @@
 #!/bin/bash
 # move timer and service file
+
+if [ "$(whoami)" == "root" ]; then
+	echo "Sorry, you must not be root to install the dotfiles"
+	exit 1
+fi
+
 sudo cp updater/dotfile-updater /bin/dotfile-updater
 user=$USER
 sudo sed -i -e "s@>@${PWD}@g" /bin/dotfile-updater
