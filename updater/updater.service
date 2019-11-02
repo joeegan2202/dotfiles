@@ -1,0 +1,5 @@
+[Unit]
+Description=Script to update dotfiles
+
+[Service]
+ExecStart=/bin/dotfile-updater
