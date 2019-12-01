@@ -2,7 +2,11 @@
 git pull
 
 if [ "$(whoami)" == "root" ]; then
-	echo "Sorry, you must not be root to install the dotfiles"
+	echo "WARNING: You are installing for root. If you wish to install for another user do not run with 'sudo'."
+fi
+
+if [ "$(pwd)" != "/home/$(whoami)/dotfiles" ]; then
+	echo "You must create the git folder in your home directory!"
 	exit 1
 fi
 
