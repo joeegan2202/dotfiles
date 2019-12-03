@@ -2,7 +2,7 @@
 # move timer and service file
 
 if [ "$(whoami)" == "root" ]; then
-	echo "Sorry, you must not be root to install the dotfiles"
+	echo "Sorry, you must not be root to install the updater script"
 	exit 1
 fi
 
