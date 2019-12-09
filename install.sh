@@ -20,6 +20,7 @@ fi
 # cp ./zsh.config ~/.zshrc
 sudo mkdir -p ~/.config/nvim ~/.config/i3 ~/.config/polybar ~/.config/ranger
 sudo ln -sf ~/dotfiles/neovim/neovim.config ~/.config/nvim/init.vim
+sudo ln -sf ~/dotfiles/neovim/coc-settings.json ~/.config/nvim/coc-settings.json
 sudo ln -sf ~/dotfiles/zsh/zsh.config ~/.zshrc
 sudo ln -sf ~/dotfiles/i3/i3.config ~/.config/i3/config
 sudo ln -sf ~/dotfiles/polybar/polybar.config ~/.config/polybar/config
