@@ -1,0 +1,5 @@
+#!/bin/bash
+sudo -u < rsync -avzh >/sync/ joe@10.0.0.146:/home/joe/sync
+sudo -u < rsync -avzh joe@10.0.0.146:/home/joe/sync/ >/sync
+sudo -u < rsync -avzh >/sync/ joe@eganshub.net:/home/joe/sync
+sudo -u < rsync -avzh joe@eganshub.net:/home/joe/sync/ >/sync

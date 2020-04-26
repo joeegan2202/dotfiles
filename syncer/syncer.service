@@ -1,0 +1,6 @@
+[Unit]
+Description=Service to sync files in a sync directory
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/syncer-exec
