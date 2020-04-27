@@ -1,4 +1,8 @@
 # Joe's Dotfiles and Arch Bootstrap
+
+# **!!! Attention: This repo has moved onto my server. I need to remember not to come here. !!!**
+(It's not like anyone else is seeing this.)
+
 ### Install Dotfiles
 Use the install.sh file to install. Caution:
 * Will destroy current dotfiles from the included programs list.
