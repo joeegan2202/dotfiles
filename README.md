@@ -1,4 +1,5 @@
 # Joe's Dotfiles and Arch Bootstrap
+
 ### Install Dotfiles
 Use the install.sh file to install. Caution:
 * Will destroy current dotfiles from the included programs list.
