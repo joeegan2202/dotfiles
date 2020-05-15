@@ -1,8 +1,19 @@
-{                                                                                                                         
-    "languageserver": {                                                                                                   
-  "kotlin": {                                                                                             
-    "command": "kotlin-language-server",                                                                                  
-    "filetypes": ["kotlin"]                                                                                                 
-    }                                                                                                                     
-  }                                                                                                                                                                                                                                                
-}   
+{
+  "eslint.options": {"configFile": "/home/joe/dotfiles/.eslintrc.json"},
+  "eslint.autoFixOnSave": true,
+  "coc.preferences.formatOnSaveFiletypes": [
+    "css",
+    "markdown",
+    "Markdown",
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "languageserver": {
+    "kotlin": {
+      "command": "kotlin-language-server",
+      "filetypes": ["kotlin"]
+    }
+  }
+}
